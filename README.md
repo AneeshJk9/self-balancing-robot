@@ -17,7 +17,7 @@ upright balance in real time.
 
 ## Status
 - [x] ESP32 flashed and confirmed working
-- [ ] IMU data over serial
+- [x] IMU data over serial
 - [ ] Motor actuation
 - [ ] PID implementation
 - [ ] Full balancing
