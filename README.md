@@ -24,3 +24,8 @@ upright balance in real time.
 
 ## Build Log
 **6/26** — ESP32 flashed successfully, onboard LED blinking confirmed
+**6/29/2026** — Got live accelerometer/gyro data streaming from the MPU-6050 over I2C. Hit a watchdog-reset bug caused by a loose jumper wire; diagnosed it using an I2C scanner sketch before going back to the main MPU6050_raw sketch. Attached photos of breadboard wiring and Serial Monitor output below.
+<img width="1179" height="1439" alt="image" src="https://github.com/user-attachments/assets/d0f07bf4-84ed-4e19-8976-637f02a3a800" />
+<img width="1568" height="317" alt="image" src="https://github.com/user-attachments/assets/ea790536-38c5-4ec5-8ace-79cd40f02f36" />
+
+
